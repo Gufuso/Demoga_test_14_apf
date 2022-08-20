@@ -36,7 +36,7 @@ public class AutomationPracticeForm {
         $(".react-datepicker__day--012").click();
         $(".subjects-auto-complete__value-container").click();
         $("#subjectsInput").setValue("Physics").pressEnter();
-        $("[for='hobbies-checkbox-1']").click();
+        $("#hobbiesWrapper").$(byText("Sports")).click();
         $("#uploadPicture").uploadFile(new File("src/test/resources/лицо.jpg"));
         $("#currentAddress").setValue("Moscow");
         $("#state").click();
